@@ -3,7 +3,7 @@
 
 require 'rubygems'
 require 'roo'
-
+require 'csv'
 
 USAGE = <<END
 Convert an excel file to csv via the roo library
@@ -28,9 +28,9 @@ filename = ARGV[0]
 die_with_usage "You must pass a file." unless filename
 
 if filename =~ /xlsx$/
-  excel = Excelx.new(filename)
+  excel = Roo::Excelx.new(filename)
 else
-  excel = Excel.new(filename)
+  excel = Roo::Excel.new(filename)
 end
 
 output = STDOUT
