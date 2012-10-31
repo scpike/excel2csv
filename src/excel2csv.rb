@@ -2,6 +2,7 @@
 #!/usr/bin/env ruby
 
 require 'rubygems'
+require 'iconv'
 require 'roo'
 
 
