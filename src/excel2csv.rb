@@ -3,6 +3,7 @@
 
 require 'rubygems'
 require 'roo'
+require 'roo-xls'
 require 'csv'
 
 USAGE = <<END
