@@ -1,7 +1,9 @@
 #!/usr/bin/env ruby
+# encoding: UTF-8
 
 require 'rubygems'
 require 'roo'
+require 'roo-xls'
 require 'csv'
 
 USAGE = <<END
